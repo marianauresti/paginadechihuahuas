@@ -1,0 +1,39 @@
+body{
+    background-color: #fffc63;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #003520;
+}
+h1{
+    color: #0f6039;
+}
+h3{
+    color: #6ba747;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: unset;
+}
+
+.img1 {
+    width: 400px;
+    height: 280px;
+    margin-left: 50px;
+    margin-right: 60px; /*para orientar la imagen desde el borde*/
+}   
+.img2 {
+    width: 300px;
+    height: 280px;
+    border-style: initial solid;
+}
+
+footer{
+    background-color: #10482638; /*para pies de pagina (al final) es el footer*/
+    
+}
+
+small, a{
+    color:#6e500e;
+    padding-bottom: 100;
+}

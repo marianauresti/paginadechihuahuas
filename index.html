@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--Comentario-->
+
+<head>
+    <title> Página de chihuahuas</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>PÁGINA DE CHIHUAHUAS</h1>
+    <h3>Imágenes de chihuahuas </h3>
+    
+    <div class="contenedor">
+      
+        <!--Insertar imagen desde la web-->
+    <img class="img1" src="https://t1.ea.ltmcdn.com/es/posts/5/8/8/enfermedades_mas_comunes_en_perros_chihuahua_21885_orig.jpg">
+    
+    <!-- <br> para separar hacia abajo-->
+    
+    <!--Insertar imagen desde la compu-->
+    <img class="img2" src="imagenes/chihuahua.webp">
+
+    </div>
+
+    <!--Enlaces externos-->
+    <p>Si quieres ver más imágenes de chihuahuas, <a href="https://pixabay.com/es/images/search/chihuahua/" target="_blank"> da click en este enlace. </a>.</p>
+
+    <h3>Listas de chihuahuas </h3>
+    <p>3 Cosas que los chihuahuas <strong>aman</strong></p>
+
+    <!--Lista ordenada-->
+    <ol>
+        <li>Dormir</li>
+        <li>Comer</li>
+        <li>Jugar</li>
+    </ol>
+
+    <!--Lista ordenada-->
+
+    <p>3 cosas que los Chihuahuas <i>odian</i></p>
+    <ul>
+        <li>El frío</li>
+        <li>Estar solitos</li>
+        <li>Tener hambre</li>
+    </ul>
+
+    <!--Formularios-->
+    <form>
+        <!--Form con botones de radio-->
+        <p>¿Tu chihuahua es cachorro o adulto? </p>
+        <label>
+            <input id="cachorro" type="radio"
+            value="cachorro"
+            name="form.michis">Cachorro
+        </label>
+
+        <label>
+            <input id="adulto" type="radio"
+            value="adulto"
+            name="form.michis">Adulto
+        </label>
+
+        <!--Form con casillas de verificacion / checks-->
+        <p>¿Qué tipo de personalidad tiene tu chihuahua?</p>
+        <label>
+            <input id="enojon"
+            type="checkbox" value="enojon"
+            name="personalidad" checked>Enojón
+        </label>
+        <br>
+        <label> <input id="perezoso"
+        type="checkbox" value="perezoso"
+        name="personalidad" >Perezoso
+        </label>
+        <br>
+        <label> <input id="energico"
+            type="checkbox" value="energico"
+            name="personalidad" >Enérgico
+        </label>
+    </form>
+</body>
+
+<footer>
+    <p> <small>Esta página fue creada durante el bootcamp de Technolochicas PRO</small> </p>
+</footer>
